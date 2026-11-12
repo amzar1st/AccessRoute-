@@ -1,0 +1,31 @@
+{
+  "notice": "Harbor Exchange north lift closed for scheduled maintenance; south lift and platform transfer lift explicitly available in the exercise window.",
+  "paths": {
+    "NORTH>P2": [
+      "DEMO-N"
+    ],
+    "SOUTH>P2": [
+      "DEMO-S"
+    ],
+    "P2>P4": [
+      "DEMO-T"
+    ]
+  },
+  "windows": {
+    "DEMO-N": [
+      "BLOCKED",
+      1794553200,
+      1794556800
+    ],
+    "DEMO-S": [
+      "SUPPORTED",
+      1794553200,
+      1794556800
+    ],
+    "DEMO-T": [
+      "SUPPORTED",
+      1794553200,
+      1794556800
+    ]
+  }
+}
