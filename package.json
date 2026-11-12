@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "esbuild": "0.27.2",
+    "genlayer-js": "1.1.8"
+  },
+  "name": "accessroute",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node web/build.mjs",
+    "test": "python -m unittest discover -s tests && node --test tests/*.test.mjs"
+  }
+}
